@@ -6,12 +6,12 @@ class Removebg < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/remove-bg/go/releases/download/v1.2.0/go_1.2.0_Darwin_x86_64.tar.gz"
-    sha256 "ff8008e4c22fcce68ce4c67e7b12f33edfe3f3b3d63e84b8aee91a5b101700cf"
+    url "https://github.com/remove-bg/go/releases/download/v1.2.0/removebg_1.2.0_Darwin_x86_64.tar.gz"
+    sha256 "024c138d6c718ab643acd81c3a2a6b15b13abee375f12e190c6ec53f53f063fa"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/remove-bg/go/releases/download/v1.2.0/go_1.2.0_Linux_x86_64.tar.gz"
-      sha256 "fb0e43e590074c89eb58b1fa3abfbcb9a5844dcc8386adb43f0c4f65f99e8b79"
+      url "https://github.com/remove-bg/go/releases/download/v1.2.0/removebg_1.2.0_Linux_x86_64.tar.gz"
+      sha256 "9b62ed9d1dbc1a1c41166e02ee630a552bf7687e4ebe51962016e40f67a80789"
     end
   end
 
