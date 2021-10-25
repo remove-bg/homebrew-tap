@@ -3,7 +3,6 @@ class Removebg < Formula
   desc "Remove image background - 100% automatically"
   homepage "https://www.remove.bg/"
   version "1.3.1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/remove-bg/go/releases/download/v1.3.1/removebg_1.3.1_Darwin_x86_64.tar.gz"
