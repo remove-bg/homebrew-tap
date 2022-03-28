@@ -2,15 +2,15 @@
 class Removebg < Formula
   desc "Remove image background - 100% automatically"
   homepage "https://www.remove.bg/"
-  version "1.3.1"
+  version "2.0.0"
 
   if OS.mac?
-    url "https://github.com/remove-bg/go/releases/download/v1.3.1/removebg_1.3.1_Darwin_x86_64.tar.gz"
-    sha256 "6abdca689eb367ff5609410b7a5b48ccb00263c46b82f174d5a9b82e6314ef02"
+    url "https://github.com/remove-bg/remove-bg-cli/releases/download/2.0.0/removebg_cli_2.0.0_macos.tar.gz"
+    sha256 "a62261e64a70a12da994c364aeaf389d22a457cb12b5fd80d87763603aaef1c2"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/remove-bg/go/releases/download/v1.3.1/removebg_1.3.1_Linux_x86_64.tar.gz"
-      sha256 "2f354ba1296db50813d32b5276957f5b4b878c8ed11f9dfdc055aeab0eeb17b3"
+      url "https://github.com/remove-bg/remove-bg-cli/releases/download/2.0.0/removebg_cli_2.0.0_linux.tar.gz"
+      sha256 "07fcde27e31466632a41eda178735fd7169fe9c6e0ee0159b80ab66e26390370"
     end
   end
 
